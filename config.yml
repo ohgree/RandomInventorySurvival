@@ -1,0 +1,23 @@
+#  Random Inventory Survival Configurations - v1.1
+#  For further details, contact me on:
+#  Skype ID: minjooon123 | E-mail: minjooon123@naver.com | Twt: @InfectedDuck_KR
+Notifications:
+  Broadcast Death: true
+  Broadcast Killer: true
+  Broadcast Swap: false
+  Show Axis Regularly: true
+  Shut Up InfectedDuck!: false
+Numerics:
+  Axis Shown Frequency(Minutes): 5
+  Killing Time(Minimum of 5 minutes): 30
+Player:
+  Disable Killing Time: false
+  Ban On Death: false
+  Enable Excluded Players To Spectate: true
+  Auto Whitelist: false
+  Forgive Deaths Before Killing Time: true
+Secret Settings(WIP):
+  Option 1: 30
+  Option 2: 50
+Debug:
+  Debugging Mode: false

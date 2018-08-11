@@ -1,0 +1,24 @@
+name: RandomInventorySurvival
+main: me.blog.minjooon123.randominventorysurvival.RandomInventorySurvival
+version: 1.0.4
+description: >
+             Random Inventory Survival by InfectedDuck.
+             E-mail: minjooon123@naver.com
+commands:
+   ris:
+      description: Displays all available commands for RandomInventorySurvival.
+      usage: /<command> [help|start|exclude]
+
+permissions:
+  ris.*:
+    description: Gives access to commands.
+    default: op
+    children:
+        ris.start: true
+        ris.exclude: false
+  ris.start: 
+    description: Allows the player to start the plugin.
+    default: op
+  ris.exclude:
+    description: Allows the player to participate in this plugin.
+    default: false
